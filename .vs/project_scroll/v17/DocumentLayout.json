@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Proyectos\\project_scroll\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|D:\\Proyectos\\project_scroll\\project_scroll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:project_scroll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "project_scroll.cpp",
+              "DocumentMoniker": "D:\\Proyectos\\project_scroll\\project_scroll.cpp",
+              "RelativeDocumentMoniker": "project_scroll.cpp",
+              "ToolTip": "D:\\Proyectos\\project_scroll\\project_scroll.cpp",
+              "RelativeToolTip": "project_scroll.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T03:42:13.364Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
