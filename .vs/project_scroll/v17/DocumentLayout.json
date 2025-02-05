@@ -1,10 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Proyectos\\project_scroll\\",
+  "WorkspaceRootPath": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|D:\\Proyectos\\project_scroll\\project_scroll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:project_scroll.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:texture.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,14 +39,80 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "project_scroll.cpp",
-              "DocumentMoniker": "D:\\Proyectos\\project_scroll\\project_scroll.cpp",
-              "RelativeDocumentMoniker": "project_scroll.cpp",
-              "ToolTip": "D:\\Proyectos\\project_scroll\\project_scroll.cpp",
-              "RelativeToolTip": "project_scroll.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABsAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T03:42:13.364Z",
+              "WhenOpened": "2025-02-04T03:59:09.971Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "texture.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\texture.cpp",
+              "RelativeDocumentMoniker": "texture.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\texture.cpp",
+              "RelativeToolTip": "texture.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAABsAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T04:39:36.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EBO.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp",
+              "RelativeDocumentMoniker": "EBO.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp",
+              "RelativeToolTip": "EBO.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-05T03:22:56.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VAO.h",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h",
+              "RelativeDocumentMoniker": "VAO.h",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h",
+              "RelativeToolTip": "VAO.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-05T02:57:32.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VBO.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp",
+              "RelativeDocumentMoniker": "VBO.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp",
+              "RelativeToolTip": "VBO.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T19:20:14.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "VAO.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp",
+              "RelativeDocumentMoniker": "VAO.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp",
+              "RelativeToolTip": "VAO.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-04T19:01:05.005Z",
               "EditorCaption": ""
             }
           ]
