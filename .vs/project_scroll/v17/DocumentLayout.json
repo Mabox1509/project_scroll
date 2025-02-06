@@ -7,20 +7,12 @@
       "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:EBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VBO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VAO.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:VAO.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,9 +30,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp*",
-              "RelativeToolTip": "main.cpp*",
-              "ViewState": "AQIAAGwAAAAAAAAAAAAAAHwAAAAGAAAA",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAMYAAAAAAAAAAAAAAMcAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T03:59:09.971Z",
               "IsPinned": true,
@@ -48,51 +40,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "EBO.cpp",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp",
-              "RelativeDocumentMoniker": "EBO.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\EBO.cpp",
-              "RelativeToolTip": "EBO.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-05T03:22:56.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "VAO.h",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h",
-              "RelativeDocumentMoniker": "VAO.h",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.h",
-              "RelativeToolTip": "VAO.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-05T02:57:32.742Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "VBO.cpp",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp",
-              "RelativeDocumentMoniker": "VBO.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VBO.cpp",
-              "RelativeToolTip": "VBO.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T19:20:14.505Z"
+              "Title": "camera.h",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h",
+              "RelativeDocumentMoniker": "camera.h",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h",
+              "RelativeToolTip": "camera.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-06T01:45:56.939Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "VAO.cpp",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp",
-              "RelativeDocumentMoniker": "VAO.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\VAO.cpp",
-              "RelativeToolTip": "VAO.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAABAAAA",
+              "DocumentIndex": 1,
+              "Title": "camera.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp",
+              "RelativeDocumentMoniker": "camera.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp",
+              "RelativeToolTip": "camera.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-04T19:01:05.005Z"
+              "WhenOpened": "2025-02-06T01:07:15.597Z",
+              "EditorCaption": ""
             }
           ]
         }
