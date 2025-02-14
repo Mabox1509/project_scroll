@@ -13,102 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\Debug">
-      <UniqueIdentifier>{bc723f26-4677-477a-9260-996eb020190a}</UniqueIdentifier>
+    <Filter Include="Source Files\imgui">
+      <UniqueIdentifier>{b9e32367-a953-4db3-ac14-fd8edeb82852}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Engine">
-      <UniqueIdentifier>{23dd05af-1681-4bc1-aa5d-04d8a9ca20cd}</UniqueIdentifier>
+    <Filter Include="Header Files\imgui">
+      <UniqueIdentifier>{946ee968-8da8-4d9d-bed7-648b16d697b3}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Header Files\Engine">
-      <UniqueIdentifier>{7a777d7e-4446-47e4-a981-ae5ec8133247}</UniqueIdentifier>
+    <Filter Include="Source Files\subengine">
+      <UniqueIdentifier>{a694be4b-5588-4fbb-9b30-4fa891ff6abf}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\Debug">
-      <UniqueIdentifier>{b0771131-9974-4913-9ed3-8c1f6eca84be}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Source Files\Engine\imgui">
-      <UniqueIdentifier>{0fdfb70d-af80-491e-ad14-93d9e20e1fea}</UniqueIdentifier>
+    <Filter Include="Header Files\subengine">
+      <UniqueIdentifier>{07eda05b-43f2-4377-90a6-0c1c71b43cdd}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="glad.c">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="log.cpp">
-      <Filter>Source Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="resources.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="shader.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="VBO.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="EBO.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="VAO.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="stb.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="texture.cpp">
-      <Filter>Source Files\Engine</Filter>
-    </ClCompile>
-    <ClCompile Include="compression.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui\imgui_widgets.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
-    </ClCompile>
     <ClCompile Include="imgui\imgui.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui_demo.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui_draw.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
-    </ClCompile>
-    <ClCompile Include="imgui\imgui_tables.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui_impl_glfw.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
     <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
-      <Filter>Source Files\Engine\imgui</Filter>
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
-    <ClCompile Include="camera.cpp">
-      <Filter>Source Files\Engine</Filter>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gameobject.cpp">
+      <Filter>Source Files\subengine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\room.cpp">
+      <Filter>Source Files\subengine</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="log.h">
-      <Filter>Header Files\Debug</Filter>
-    </ClInclude>
-    <ClInclude Include="resources.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="VBO.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="EBO.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="VAO.h">
-      <Filter>Header Files\Engine</Filter>
-    </ClInclude>
-    <ClInclude Include="compression.h">
+    <ClInclude Include="dogine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="camera.h">
-      <Filter>Header Files\Engine</Filter>
+    <ClInclude Include="inc\gameobject.h">
+      <Filter>Header Files\subengine</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\room.h">
+      <Filter>Header Files\subengine</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

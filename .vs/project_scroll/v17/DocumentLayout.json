@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:camera.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:src\\room.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:inc\\room.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:inc\\gameobject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{1340505A-9148-41DC-BA5D-701988AF8E80}|project_scroll.vcxproj|solutionrelative:src\\gameobject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,9 +38,9 @@
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAMYAAAAAAAAAAAAAAMcAAABEAAAA",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\main.cpp*",
+              "RelativeToolTip": "main.cpp*",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGMAAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T03:59:09.971Z",
               "IsPinned": true,
@@ -41,27 +49,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "camera.h",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h",
-              "RelativeDocumentMoniker": "camera.h",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.h",
-              "RelativeToolTip": "camera.h",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Title": "room.h",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\room.h",
+              "RelativeDocumentMoniker": "inc\\room.h",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\room.h",
+              "RelativeToolTip": "inc\\room.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-02-06T01:45:56.939Z",
+              "WhenOpened": "2025-02-14T23:26:04.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "camera.cpp",
-              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp",
-              "RelativeDocumentMoniker": "camera.cpp",
-              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\camera.cpp",
-              "RelativeToolTip": "camera.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAoAAAA",
+              "Title": "room.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\room.cpp",
+              "RelativeDocumentMoniker": "src\\room.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\room.cpp",
+              "RelativeToolTip": "src\\room.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-02-06T01:07:15.597Z",
+              "WhenOpened": "2025-02-14T23:26:03.244Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "gameobject.h",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\gameobject.h",
+              "RelativeDocumentMoniker": "inc\\gameobject.h",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\inc\\gameobject.h",
+              "RelativeToolTip": "inc\\gameobject.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-02-12T01:36:18.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "gameobject.cpp",
+              "DocumentMoniker": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\gameobject.cpp",
+              "RelativeDocumentMoniker": "src\\gameobject.cpp",
+              "ToolTip": "C:\\Users\\Mauricio Perez\\Documents\\project_scroll\\src\\gameobject.cpp",
+              "RelativeToolTip": "src\\gameobject.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-12T02:49:07.412Z",
               "EditorCaption": ""
             }
           ]

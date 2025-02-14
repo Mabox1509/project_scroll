@@ -1,22 +1,23 @@
 #version 330 core
 out vec4 FragColor;
 
-in vec3 color;
+/*in vec3 color;*/
 in vec2 texCoord;
 
-in vec3 normal;
-in vec3 crntPos;
+
+//TRANSFORMS IN
+in vec3 local_position;
+in vec3 world_position;
+
+in vec3 local_normal;
+in vec3 world_normal;
+
+in vec3 ligth;
 
 uniform sampler2D tex0;
 
 
 void main()
 {
-    vec4 _color = texture(tex0, texCoord);
-    _color *= vec4(color, 1.0f);
-
-    vec3 lightDirection = normalize(vec3(1.0, 1.0, 0.0));
-    float _dot = dot(normal, lightDirection);
-
-    FragColor = _color * _dot;
+    FragColor = vec4(world_position, 1.0f);
 }
