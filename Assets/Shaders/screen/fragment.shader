@@ -10,6 +10,8 @@ uniform vec2 resolution;
 uniform float color_depth;
 uniform float brightness;
 
+uniform vec4 color_tint;
+
 
 //[FUNCTIONS]
 float Lerp(float _a, float _b, float _t)
@@ -48,9 +50,9 @@ float CalculateChannel(float _raw, vec2 _uv)
 //[MAIN]
 void main()
 {
-    vec4 _raw = texture(tex0, texCoord) + brightness;
+    vec4 _raw = texture(tex0, texCoord) * color_tint;
     vec2 _tiled_uv = GetTiled();
 
-    vec4 _color = vec4(CalculateChannel(_raw.x, _tiled_uv), CalculateChannel(_raw.y, _tiled_uv), CalculateChannel(_raw.z, _tiled_uv), 1.0f); //vec4(GetTiled(), 0.0f, 1.0f);
+    vec4 _color = vec4(CalculateChannel(_raw.x, _tiled_uv), CalculateChannel(_raw.y, _tiled_uv), CalculateChannel(_raw.z, _tiled_uv), _raw.w); //vec4(GetTiled(), 0.0f, 1.0f);
     FragColor = _color;
 }

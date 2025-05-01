@@ -11,6 +11,7 @@
 #include <glad/glad.h>
 #include <GLFW/glfw3.h>
 #include <glm/glm.hpp>
+#include <OpenAL/al.h>
 
 
 
@@ -68,6 +69,7 @@ namespace Dogine
 	{
 	private:
 		std::unordered_map<std::string, GLuint> uniforms;
+		static Shader* active;
 
 	public:
 		//[VARIABLES]
@@ -80,6 +82,8 @@ namespace Dogine
 		//[FUNCTIONS]
 		void Activate();
 		void Delete();
+
+		static Shader* GetActive();
 
 
 		//[UNIFORMS]
@@ -132,8 +136,11 @@ namespace Dogine
 		unsigned int* buffer;
 		int w, h;
 
+		bool mipmaps;
+		GLuint slot;
+
 	public:
-		Texture(int _w, int _h, GLuint _filter, GLuint _warp);
+		Texture(int _w, int _h, GLuint _filter, GLuint _warp, GLboolean _mipmaps);
 		~Texture();
 
 		void TexUnit(Shader& _shader, const char* _uniform, GLuint unit);
@@ -148,6 +155,7 @@ namespace Dogine
 
 		int GetWidth();
 		int GetHeight();
+		GLuint GetID();
 
 	};
 	class Mesh
@@ -168,6 +176,8 @@ namespace Dogine
 		std::vector<glm::vec2> uvs;
 		std::vector<glm::vec3> normals;
 
+		std::vector<glm::vec3> perpendicular;
+
 
 		std::vector<GLuint> triangles;
 
@@ -181,6 +191,57 @@ namespace Dogine
 
 
 		int GetTriangles();
+	};
+	class Sprite : public std::enable_shared_from_this<Sprite>
+	{
+	private:
+		std::shared_ptr<Texture> texture;
+		std::vector<Mesh> frames;
+
+		std::string id;
+
+
+	public:
+		Sprite(std::shared_ptr<Texture> _texture, int _frames);
+		~Sprite();
+
+		void SetFrame(int _index, int _x, int _y, int _w, int _h, float _xpivot, float _ypivot, float _ppu);
+
+		std::shared_ptr<Texture> GetTexture();
+		int GetFrames();
+
+		void Bind(int _frame, GLuint _slot);
+	};
+	class Audio
+	{
+	private:
+		ALuint al_buffer;
+
+		int sample_rate;
+		int channels;
+		uint8_t bit_depth;
+		int length_samples;
+
+		int16_t* raw_pcm_data;
+
+	public:
+		// Constructor
+		Audio(char* _data, int _data_size, int _sample_rate, int _channels, uint8_t _bit_depth);
+
+		// Destructor
+		~Audio();
+
+		// Getter para OpenAL buffer
+		ALuint GetALBuffer() const;
+
+		// Getters para propiedades de audio
+		int GetSampleRate() const;
+		int GetChannels() const;
+		uint8_t GetBitDepth() const;
+		int GetSampleCount() const;
+
+		// Getter para los datos PCM crudos
+		int16_t* GetPCMData() const;
 	};
 
 
@@ -240,8 +301,6 @@ namespace Dogine
 	extern std::function<void(double _dt, int _w, int _h)> on_draw;
 	extern std::function<void(double _dt, int _w, int _h, GLuint _output)> on_postdraw;
 
-	extern int target_framerate;
-
 	extern Surface* application_surface;
 	#pragma endregion
 
@@ -264,10 +323,14 @@ namespace Dogine
 
 	//RESOURCES FUNCTION
 	void ResourcesInit();
-	std::shared_ptr<Texture> LoadTexture(std::string _name);
-	std::shared_ptr<Mesh> LoadMesh(std::string _name);
-	std::shared_ptr<Shader> LoadShader(std::string _name);
-	std::vector<char> LoadRaw(std::string _name);
+	std::shared_ptr<Texture> LoadTexture(const std::string& _name);
+	std::shared_ptr<Mesh> LoadMesh(const std::string& _name);
+	std::shared_ptr<Sprite> LoadSprite(const std::string& _name);
+	std::shared_ptr<Shader> LoadShader(const std::string& _name);
+	std::shared_ptr<Audio> LoadAudio(const std::string& _name);
+	std::vector<char> LoadRaw(const std::string& _name);
+
+	std::vector<std::shared_ptr<Texture>> GetActiveTextures();
 	#pragma endregion
 }
 #endif // !_DOGINE_H

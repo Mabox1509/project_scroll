@@ -1,0 +1,1 @@
+"D:\Programas\dogpkg\dogpkg.exe" "D:\Proyectos\project_scroll\Assets" "D:\Proyectos\project_scroll\resources"

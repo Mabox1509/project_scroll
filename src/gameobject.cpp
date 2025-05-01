@@ -1,49 +1,48 @@
 //[INCLUDES]
 #include "../inc/gameobject.h"
 
-#include "../inc/room.h"
+#include "../inc/roommanager.h"
+#include "../dogine.h"
+
 
 
 //[IMPLEMENTATION]
 GameObject::GameObject(glm::vec3 _pos)
 {
 	position = _pos;
-	rotation = glm::vec3(0.0f, 0.0f, 0.0f);
-	scale = glm::vec3(1.0f, 1.0f, 1.0f);
+	rotation = glm::vec3(0, 0, 0);
+	scale = glm::vec3(1, 1, 1);
 
-	memcpy(tag, "Default\0", 8);
+	tag = "default";
 	enable = true;
-	visible = true;
 	persistent = false;
 
 
 
 	//TODO: Set room id
-	id = 0;
+	destroyed = false;
+	RoomManager::instances.push_back(shared_from_this());
 }
-GameObject::~GameObject(){}
+GameObject::~GameObject()
+{
+
+}
 
 void GameObject::Interpret(std::vector<double> _args) {}
 
 void GameObject::Start(){}
 void GameObject::Update(double _dt){}
 void GameObject::LateUpdate(double _dt){}
-void GameObject::Draw(glm::mat4 _camera){}
+void GameObject::Draw(glm::mat4 _camera, uint8_t _layer, int _depth){}
 
-
-
-int GameObject::GetID() { return id; }
-
-glm::mat4 GameObject::GetMatrix()
+void GameObject::Destroy()
 {
-	glm::mat4 _matrix = glm::mat4(1.0f);
+	destroyed = true;
+	RoomManager::ghosts.push_back(shared_from_this());
 
-
-	_matrix = glm::translate(_matrix, position);
-	_matrix = glm::rotate(_matrix, glm::radians(rotation.x), glm::vec3(1.0f, 0.0f, 0.0f));
-	_matrix = glm::rotate(_matrix, glm::radians(rotation.y), glm::vec3(0.0f, 1.0f, 0.0f));
-	_matrix = glm::rotate(_matrix, glm::radians(rotation.z), glm::vec3(0.0f, 0.0f, 1.0f));
-	_matrix = glm::scale(_matrix, scale);
-
-	return _matrix;
+	auto _self = shared_from_this();
+	RoomManager::instances.erase(std::remove(RoomManager::instances.begin(), RoomManager::instances.end(), _self), RoomManager::instances.end());
 }
+
+
+bool GameObject::IsDestroyed() { return destroyed; }

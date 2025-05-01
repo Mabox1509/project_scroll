@@ -2,23 +2,26 @@
 #define _GAMEOBJECT_H
 //[INCLUDES]
 #include <vector>
+#include <string>
+#include <memory>
+
 #include <glm/glm.hpp>
-#include "glm/gtc/matrix_transform.hpp"
 
 //[CLASS]
-class GameObject
+class GameObject : public std::enable_shared_from_this<GameObject>
 {
 public:
 	//[VARIABLES]
 	bool enable;
-	bool visible;
 	bool persistent;
 
-	char tag[8];
+
+	std::string tag;
 
 	glm::vec3 position;
 	glm::vec3 rotation;
 	glm::vec3 scale;
+
 
 
 	GameObject(glm::vec3 _pos);
@@ -31,16 +34,16 @@ public:
 	virtual void Update(double _dt);
 	virtual void LateUpdate(double _dt);
 
-	virtual void Draw(glm::mat4 _camera);
+	virtual void Draw(glm::mat4 _camera, uint8_t _layer, int _depth);
 
 
-	int GetID();
-protected:
-	glm::mat4 GetMatrix();
+	void Destroy();	
+	bool IsDestroyed();
 
 
 private:
-	int id;
+	bool destroyed;
+
 	
 };
 #endif // !_GAMEOBJECT_H

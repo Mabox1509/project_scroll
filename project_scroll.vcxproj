@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -26,14 +26,19 @@
     <ClCompile Include="imgui\imgui_impl_opengl3.cpp" />
     <ClCompile Include="imgui\imgui_tables.cpp" />
     <ClCompile Include="imgui\imgui_widgets.cpp" />
+    <ClCompile Include="imgui\implot.cpp" />
+    <ClCompile Include="imgui\implot_demo.cpp" />
+    <ClCompile Include="imgui\implot_items.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="src\gameobject.cpp" />
-    <ClCompile Include="src\room.cpp" />
+    <ClCompile Include="src\renderer.cpp" />
+    <ClCompile Include="src\roommanager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="dogine.h" />
     <ClInclude Include="inc\gameobject.h" />
-    <ClInclude Include="inc\room.h" />
+    <ClInclude Include="inc\roommanager.h" />
+    <ClInclude Include="inc\renderer.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
@@ -88,20 +93,20 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Proyectos\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Proyectos\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <IncludePath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Proyectos\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Proyectos\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <IncludePath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Proyectos\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Proyectos\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <IncludePath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\Mauricio Perez\Documents\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Proyectos\project_scroll\Libraries\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Proyectos\project_scroll\Libraries\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -116,7 +121,7 @@
       <AdditionalDependencies>Dogine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>"D:\Programas\dogpkg\dogpkg.exe" "C:\Users\Mauricio Perez\Documents\project_scroll\Assets" "C:\Users\Mauricio Perez\Documents\project_scroll\resources"</Command>
+      <Command>./compile_assets.bat</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -136,7 +141,7 @@
       <AdditionalDependencies>Dogine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>"D:\Programas\dogpkg\dogpkg.exe" "C:\Users\Mauricio Perez\Documents\project_scroll\Assets" "C:\Users\Mauricio Perez\Documents\project_scroll\resources"</Command>
+      <Command>./compile_assets.bat</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -152,7 +157,7 @@
       <AdditionalDependencies>Dogine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>"D:\Programas\dogpkg\dogpkg.exe" "C:\Users\Mauricio Perez\Documents\project_scroll\Assets" "C:\Users\Mauricio Perez\Documents\project_scroll\resources"</Command>
+      <Command>./compile_assets.bat</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -172,7 +177,7 @@
       <AdditionalDependencies>Dogine.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PreBuildEvent>
-      <Command>"D:\Programas\dogpkg\dogpkg.exe" "C:\Users\Mauricio Perez\Documents\project_scroll\Assets" "C:\Users\Mauricio Perez\Documents\project_scroll\resources"</Command>
+      <Command>./compile_assets.bat</Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

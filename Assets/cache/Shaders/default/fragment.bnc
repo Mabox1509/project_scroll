@@ -19,5 +19,9 @@ uniform sampler2D tex0;
 
 void main()
 {
-    FragColor = vec4(world_position, 1.0f);
+    vec3 _norm = local_normal;
+    _norm += 1.0;
+    _norm /= 2.0;
+
+    FragColor = vec4(_norm, 1.0f);
 }

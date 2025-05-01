@@ -54,18 +54,33 @@
     <ClCompile Include="src\gameobject.cpp">
       <Filter>Source Files\subengine</Filter>
     </ClCompile>
-    <ClCompile Include="src\room.cpp">
+    <ClCompile Include="src\renderer.cpp">
       <Filter>Source Files\subengine</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roommanager.cpp">
+      <Filter>Source Files\subengine</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot_demo.cpp">
+      <Filter>Source Files\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\implot_items.cpp">
+      <Filter>Source Files\imgui</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="dogine.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="inc\gameobject.h">
       <Filter>Header Files\subengine</Filter>
     </ClInclude>
-    <ClInclude Include="inc\room.h">
+    <ClInclude Include="dogine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\renderer.h">
+      <Filter>Header Files\subengine</Filter>
+    </ClInclude>
+    <ClInclude Include="inc\roommanager.h">
       <Filter>Header Files\subengine</Filter>
     </ClInclude>
   </ItemGroup>
